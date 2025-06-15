@@ -53,7 +53,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
 
-    print("모든 투두 가져오기 - tngud -")
+    print("모든 투두 가져오기")
     items = get_all_todos()
 
     print(items) 
